@@ -111,8 +111,8 @@ function calculate() {
 
   matList.forEach((mat, index) => {
     const rawAreaCount = totalArea / mat.area;
-    const areaBaseCount = Math.floor(rawAreaCount);
-    const finalRawCount = rawAreaCount * (1 + mat.lossRate);
+    const areaBaseCount = Math.ceil(rawAreaCount);
+    const finalCount = Math.ceil(finalRawCount);
     const finalCount = Math.floor(finalRawCount);
     const detailId = `detail-${index}`;
     const mobileDetailId = `mobile-detail-${index}`;
