@@ -122,7 +122,7 @@ function calculate() {
       <tr>
         <td><strong>${mat.name}</strong></td>
         <td>${totalArea.toLocaleString()}㎟</td>
-        <td>${areaBaseCount}장<br><small>(${rawAreaCount.toFixed(1)}장 내림)</small></td>
+        <td>${areaBaseCount}장<br><small>(${rawAreaCount.toFixed(1)}장 올림)</small></td>
         <td><strong>${finalCount}장</strong><br><small>(${finalRawCount.toFixed(1)}장 올림)</small></td>
         <td>
           <button class="detail-btn" onclick="toggleDetail('${detailId}')">상세보기</button>
