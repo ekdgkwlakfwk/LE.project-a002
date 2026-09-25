@@ -1,5 +1,5 @@
 const matList = [
-  { name: "600size", size: 600, area: 360,000, lossRate: 0.065 },
+  { name: "600size", size: 600, area: 360000, lossRate: 0.065 },
   { name: "1200size", size: 1200, area: 1440000, lossRate: 0.11 },
   { name: "1300size", size: 1300, area: 1690000, lossRate: 0.11 }
 ];
